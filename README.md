@@ -36,9 +36,22 @@ Using imported libraries such as 'sklearn' and 'imbalance', supervised machine-l
 *figure 6: Easy_Ensemble_AdaBoost*
 
 
+Undersampling: Balanced accuracy provides an accuracy of ~66%, precision of 100% for low_risk and 1% for high_risk. Recall scores are 69% for high_risk and 40% for low_risk. 
+
+SMOTE: Balanced accuracy is at ~66%, precision of 100% for low_risk and 1% for high_risk. Recall is at 63% for high_risk and 68% for low_risk. This is considered an improvement from the last model.
+
+oversampling: Balanced accuracy is at ~65%, precision of 100% for low_risk and 1% for high_risk. Recall is 71% for the high_risk and 58% for the low_risk. 
+
+combo_over_under: Balanced accuracy is at 54%, precision of 100% for low_risk and 1% for high_risk. Recall is 72% for the high_risk and 57% for the low_risk. This is the worst among the previous models so far.
+
+Ensemble_Learner: Balanced accuracy is at ~99.5%, Precision is 60% for the high_risk and 100% for the low_risk. Recall is 32% for high_risk and 100% for low_risk. This is the best model so far.
+
+Easy_Ensemble_AdaBoost: Balanced accuracy is at ~93%, Precision is 7% for high_risk and 100% for the low_risk. Recall is 90% for high_risk and 93% for low_risk.
+
 
 
 ***Summary***
+
 
 
 
