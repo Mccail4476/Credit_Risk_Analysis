@@ -52,6 +52,9 @@ Easy_Ensemble_AdaBoost: Balanced accuracy is at ~93%, Precision is 7% for high_r
 
 ***Summary***
 
+The various models provide different methods on how to tackle the Credit risk analysis as seen in the results section. However, it is apparent that the 'Ensemble_Learner' model provides the best results as we are interested in the highest accuracy and the highest % coverage for the high_risk, and the highest recall for the high_risk. The significance of prioritizing the high_risk as opposed the low_risk is because the goal of the machine-learning model is to detect specifically 'high_risk'. We want maximum coverage of the data of the high_risk if possible through data manipulation and to ensure that the precision is high. 
+
+It is recommended to use the Ensemble_learner with a runner-up of the Easy_Ensemble_Adaboost based off how well the models performed relative to the others. 
 
 
 
